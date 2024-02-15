@@ -1,0 +1,48 @@
+#........................."zoo.py"...................................
+def hours():
+    print('Open 9-5 daily')
+
+
+
+#........................."demo.py"...................................
+# import zoo
+# zoo.hours()
+
+# # Import the zoo module as menagerie
+# import zoo as menagerie
+# # Call the hours() function from the menagerie module
+# menagerie.hours()
+
+
+# # Explicitly import the hours() function from the zoo module
+# from zoo import hours
+# # Call the hours() function
+# hours()
+
+# importing hours as info
+# from zoo import hours as info
+# info()
+
+
+# # Create a plain dictionary
+# plain_dict = {'a': 1, 'b': 2, 'c': 3}
+# # Print the dictionary
+# print(plain_dict)
+#
+# from collections import OrderedDict
+# # Create an OrderedDict called fancy
+# fancy = OrderedDict([('a', 1), ('b', 2), ('c', 3)])
+# # Print the OrderedDict
+# print(fancy)
+
+
+from collections import defaultdict
+# Create a defaultdict with default value type as list
+dict_of_lists = defaultdict(list)
+# Append 'something for a' to the list associated with key 'a' in one assignment
+dict_of_lists['a'].append('something for a')
+# Print dict_of_lists['a']
+print(dict_of_lists['a'])
+
+
+
